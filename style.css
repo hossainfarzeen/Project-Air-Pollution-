@@ -1,0 +1,25 @@
+:root { --text:#17324d; }
+.stApp, .main, [data-testid="stAppViewContainer"] { background:linear-gradient(145deg,#eaf6f4 0%,#edf4fb 48%,#eef0fb 100%); color:var(--text); }
+.block-container { padding-top:2rem; padding-bottom:2rem; }
+.dashboard-header { background:linear-gradient(135deg,#0b6f78,#335bb5 55%,#6854b5); padding:30px 35px; border-radius:18px; margin-bottom:25px; color:#f7fbff; box-shadow:0 10px 25px rgba(49,88,183,.18); }
+.dashboard-title { font-size:32px; font-weight:800; line-height:1.2; }
+.dashboard-subtitle { margin-top:7px; font-size:15px; opacity:.92; }
+section[data-testid="stSidebar"] > div { background:linear-gradient(180deg,#dff1ef 0%,#e6eef9 100%); }
+[data-testid="stMetric"] { background:#e8f4f6; padding:18px; border-radius:14px; border:1px solid #c7d9df; box-shadow:0 4px 12px rgba(49,88,183,.06); }
+[data-testid="stMetricLabel"],[data-testid="stMetricValue"],label,[data-testid="stWidgetLabel"] p,.stMarkdown,.stCaption { color:var(--text) !important; }
+[data-baseweb="input"],[data-baseweb="select"] { background:#eaf3f6 !important; border-radius:9px; }
+[data-baseweb="input"] input,[data-baseweb="select"] > div { background:#eaf3f6 !important; color:var(--text) !important; }
+.prediction-card { padding:22px; border-radius:16px; margin:15px 0; color:#f7fbff; min-height:110px; box-shadow:0 8px 20px rgba(33,70,100,.10); }
+.temperature-card { background:linear-gradient(135deg,#c85d2d,#9c4564); }
+.humidity-card { background:linear-gradient(135deg,#2e63bd,#3f4fa4); }
+.prediction-label { font-size:13px; font-weight:600; opacity:.94; }
+.prediction-value { font-size:27px; font-weight:800; margin-top:8px; }
+.xai-card { background:linear-gradient(135deg,#edf0fb,#e7f4f2); border:1px solid #c6d4e5; border-radius:15px; padding:16px 18px; margin:10px 0; color:var(--text); }
+.xai-card strong { color:#6854b5; }
+.stButton > button { border-radius:10px; font-weight:700; background:#dcebed; color:var(--text); border:1px solid #bdd0d8; }
+.stButton > button:hover { transform:translateY(-2px); box-shadow:0 6px 15px rgba(49,88,183,.16); }
+.stTabs [data-baseweb="tab-list"] { gap:10px; background:#e3edf3; border-radius:10px; padding:5px; }
+.stTabs [data-baseweb="tab"] { border-radius:8px; padding:10px 18px; color:var(--text); }
+[data-testid="stDataFrame"] { border-radius:12px; overflow:hidden; background:#e8f2f5; }
+.footer { text-align:center; margin-top:45px; padding:25px; color:#547084; background:#e3eef2; border:1px solid #c6d7dd; border-radius:14px; font-size:13px; line-height:1.8; }
+hr { border-color:#bfd1d8 !important; }
