@@ -56,6 +56,13 @@ Bangladesh_Air_Quality_Dashboard/
     css/
         style.css
 
+## For running the project, just click on the link:
+
+https://pollutant4.streamlit.app/
+
+
+## If you want to run through localhost
+
 ## 1. Install Python
 
 Python 3.10 or newer is recommended.
@@ -108,39 +115,8 @@ Run:
 
     streamlit run app.py
 
-The application should open in your browser.
+The application will be opened in your browser.
 
-## Login
-
-New users should first select:
-
-    Create Account
-
-After registering, they can log in using their username/email and password.
-
-## Security
-
-Passwords are not stored as plain text.
-
-The application creates a salted PBKDF2-SHA256 password hash before storing the password in MySQL.
-
-Never upload .env to GitHub or share your MySQL password.
-
-## Troubleshooting
-
-### MySQL connection error
-
-Check that MySQL Server is running.
-
-Also verify:
-
-- MYSQL_HOST
-- MYSQL_PORT
-- MYSQL_USER
-- MYSQL_PASSWORD
-- MYSQL_DATABASE
-
-in .env.
 
 ### CSV file not found
 
@@ -154,7 +130,7 @@ is located next to:
 
 ### NaN error
 
-The application removes rows containing missing values from the columns required by each machine-learning model before training.
+The application removes rows containing missing values/ pre-processes  data from the columns required by each machine-learning model before training.
 
 ### Streamlit command not found
 
